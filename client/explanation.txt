@@ -18,3 +18,15 @@ To install vite & vue:
 4. run yarn dev
 
 should automatically create a vite + vue app for you (vue = another version of react)
+
+There are 2 files in this folder- login.html (for Brian) and signup.html (for David)
+If you guys can try and turn these two files specifically into login and signup pages for our website-
+each page will be its own .html page inside of our client (frontend) folder
+I can make them functional in backend later, but getting frontend running would be helpful
+
+here is a helpful tutorial about using Vue (frontend development is the first 30 mins)
+https://youtu.be/MpQbwtSiZ7E?si=8WUef4Q7Lv-gYFeO
+
+thanks :)
+
+- Kay
