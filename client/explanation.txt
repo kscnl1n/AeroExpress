@@ -1,0 +1,20 @@
+This is going to be where the frontend goes (AKA david & brian's stuff)!
+
+This is a Vue app, so to run this on your machine, make sure you have Node.js, Vue, Vite, and Yarn installed.
+
+To install node.js:
+
+
+To install yarn:
+1. open command prompt on your computer
+2. run npm install --global yarn
+instructions here:
+https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
+
+To install vite & vue:
+1. open terminal in vscode 
+2. cd into whatever folder you have the website files in on your computer (in this case probably Desktop/Aero/aeroexpress)
+3. run yarn
+4. run yarn dev
+
+should automatically create a vite + vue app for you (vue = another version of react)
