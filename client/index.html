@@ -11,3 +11,28 @@
     <script type="module" src="/src/main.js"></script>
   </body>
 </html> :)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Manager</title>
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+  <h1>Password Manager</h1>
+
+  <div id="password-list">
+    </div>
+
+  <form id="add-password-form">
+    <label for="website">Website:</label>
+    <input type="text" id="website" name="website" required>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">Add Password</button>
+  </form>
+
+  <script src="script.js"></script> </body>
+</html>
