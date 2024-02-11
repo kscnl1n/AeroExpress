@@ -1,13 +1,48 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AeroExpress</title>
   </head>
-  <body>
+
+  <body background = "plane-wing.jpeg">
+
+    <link rel="stylesheet" href="index.css"/>
+
+    <h1 class = "aeroexpress">AeroExpress</h1>
+    <p><Affordable travel for everyone.</p>
+
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  project-id="red-2-414017"
+  agent-id="989f17f9-7a08-41ed-bf0b-809a16eef2bb"
+  language-code="en"
+  max-query-length="-1">
+  <df-messenger-chat
+   chat-title="Travel: flight information">
+  </df-messenger-chat>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 350px;
+  }
+</style>
+
+
+
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
-</html> :)
+</html> 
