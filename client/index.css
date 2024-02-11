@@ -1,0 +1,44 @@
+.aeroexpress {
+font-family: poppins, sans-serif;
+font-weight: 600;
+font-size: 900%;
+color: white;
+margin: 300px;
+}
+
+p {
+    font-family: poppins, sans-serif;
+    color: white;
+}
+
+li {
+    font-family: poppins, sans-serif;
+    color: white;
+    float: left;
+}
+
+a {
+    font-family: poppins, sans-serif;
+    color: white;
+}
+
+ul {
+    font-family: poppins, sans-serif;
+    color: white;
+}
+
+
+.btn {
+    padding: .45rem 1.5rem .35rem;
+  }
+  
+  .gradient-custom {
+    /* fallback for old browsers */
+    background: orange;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(255, 172, 56), rgb(255, 103, 38));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(255, 172, 56), rgba(255, 103, 38))
+  }

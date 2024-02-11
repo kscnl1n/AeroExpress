@@ -1,38 +1,120 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AeroExpress</title>
   </head>
-  <body>
+
+  <body background = "plane-wing.jpeg">
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark gradient-custom">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">AeroExpress</a>
+
+    <!-- Toggle button -->
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fas fa-bars text-light"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto d-flex flex-row mt-3 mt-lg-0">
+        <li class="nav-item text-center mx-2 mx-lg-1">
+          <a class="nav-link active" aria-current="page" href="#!">
+            <div>
+           
+        <li class="nav-item dropdown text-center mx-2 mx-lg-1">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+            aria-expanded="false">
+            <div>
+              <i class="far fa-envelope fa-lg mb-1"></i>
+             
+            </div>
+           
+          </a>
+          <!-- Dropdown menu -->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Book Today</a></li>
+            <li><a class="dropdown-item" href="#">Log In</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Sign Up</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <!-- Left links -->
+
+     
+      <!-- Right links -->
+
+      <!-- Search form -->
+      <form class="d-flex input-group w-auto ms-lg-3 my-3 my-lg-0">
+        <input type="search" class="form-control" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-white" type="button" data-mdb-ripple-color="dark">
+          Search
+        </button>
+      </form>
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="index.css"/>
+
+    <h1 class = "aeroexpress">AeroExpress</h1>
+    <p align = "center"><Affordable travel for everyone.</p>
+
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  project-id="red-2-414017"
+  agent-id="989f17f9-7a08-41ed-bf0b-809a16eef2bb"
+  language-code="en"
+  max-query-length="-1">
+  <df-messenger-chat
+   chat-title="Travel: flight information">
+  </df-messenger-chat>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 350px;
+  }
+</style>
+
+
+
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
-</html> :)
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Password Manager</title>
-  <link rel="stylesheet" href="style.css"> </head>
-<body>
-  <h1>Password Manager</h1>
 
-  <div id="password-list">
-    </div>
+</html> 
 
-  <form id="add-password-form">
-    <label for="website">Website:</label>
-    <input type="text" id="website" name="website" required>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username">
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
-    <button type="submit">Add Password</button>
-  </form>
-
-  <script src="script.js"></script> </body>
-</html>
