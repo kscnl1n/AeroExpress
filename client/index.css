@@ -3,34 +3,50 @@ font-family: poppins, sans-serif;
 font-weight: 600;
 font-size: 900%;
 color: white;
-margin: 300px;
+margin-top: 300px;
+margin-left: 300px;
 }
 
 p {
     font-family: poppins, sans-serif;
     color: white;
+    font-size: 400%;
+    margin-bottom: 900px;
 }
 
 li {
     font-family: poppins, sans-serif;
     color: white;
     float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    font-weight: 500;
 }
 
 a {
     font-family: poppins, sans-serif;
     color: white;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 ul {
     font-family: poppins, sans-serif;
     color: white;
+    list-style-type: none;
+    margin: 0px;
 }
 
 
 .btn {
     padding: .45rem 1.5rem .35rem;
+
   }
+
+.spacing {
+
+}
   
   .gradient-custom {
     /* fallback for old browsers */
@@ -40,5 +56,8 @@ ul {
     background: -webkit-linear-gradient(to right, rgb(255, 172, 56), rgb(255, 103, 38));
   
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgba(255, 172, 56), rgba(255, 103, 38))
+    background: linear-gradient(to right, rgba(255, 172, 56), rgba(255, 103, 38));
+
+    padding-top:0;
+
   }
