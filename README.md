@@ -2,3 +2,6 @@ This is the project team developers Michael Aybar, David Arandas, Brian Jones, K
 
 It is a web application that tracks the cheapest flights near its user and displays them in listed order using a Google AI chatbot trained on flight datasets from the Flight-Tracking API.
 Developed using Vue.
+
+## 2025 UPDATE:
+Continued development can be found here: [https://github.com/kscnl1n/air-fair](https://github.com/kscnl1n/air-fair)
